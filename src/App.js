@@ -19,8 +19,7 @@ class App extends Component {
     return (
       <div>
         <span className="value">{ this.state.contador } </span>
-        <button id="inc" onClick={ () => this.onClickHandler() }>Incrementa</button>       
-        
+        <button id="inc" onClick={ () => this.onClickHandler() }>Incrementa</button>        
       </div>
     );
   }
