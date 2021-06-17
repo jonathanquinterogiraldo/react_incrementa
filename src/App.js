@@ -10,14 +10,14 @@ class App extends Component {
 
   onClickHandler(){
     this.setState({ 
-      contador: this.state.contador + 1      
+      contador: this.state.contador + 1     
     })
   }
  
   render() {
     return (
       <div>
-        <span className="value">{ this.state.contador } </span>
+        <span className="value">{ this.state.contador }</span>
         <button id="inc" onClick={ () => this.onClickHandler() }>Incrementa</button>        
       </div>
     );
